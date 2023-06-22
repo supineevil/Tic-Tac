@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+.landing{
+    background-color:yellow ;
+}
+.landing .game-page{
+    width:500px;
+    padding:25px 35px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background:#fffcfc;
+    border-radius:10px;
+    border:1px solid rgba(0, 0, 0, 0.533);
+}
+.landing .box{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.landing p{
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+button{
+    width: 100%;
+    height:50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid #0008ff;
+    background-color: #00f7ff;
+    color: rgb(58, 0, 0);
+    outline: 0;
+    padding:10px;
+    margin: 10px 0 20px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+@media screen and (max-width: 768px){
+    .landing .game-page{
+        width:350px;
+        top: 50%;
+    }
+}
